@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "dsileecher-1af3"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "dsileecher-1af3"
+  template:
+    metadata:
+      labels:
+        app: "dsileecher-1af3"
+    spec:
+      containers:
+        - name: "dsileecher-1af3"
+          image: "dsileech123.azurecr.io/dsileecher"
+          ports:
+          - containerPort: 80
