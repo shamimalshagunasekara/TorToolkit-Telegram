@@ -7,7 +7,7 @@ except:
         
         API_HASH = "d1c1c9262bbae8f5eeb80ba47c9f3dff"
         API_ID = 1424314
-        BOT_TOKEN = "2111988625:AAFzbM-eAT_5oGMS-bDsz18dJlSNa0aHKbo"
+        BOT_TOKEN = "2132684011:AAGOge2QHLj7yFm8WaA9iyXuPBFC99K9oW4"
         BASE_URL_OF_BOT = "http://t.me/gdrivedsiuploaderbot_bot"
 
         # Edit the server port if you want to keep it default though.
